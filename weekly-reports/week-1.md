@@ -1,7 +1,7 @@
 ## Builder Track Weekly Report — Week 1
 
 **Name:** Nnadozie Clara  
-**Week Ending:** [MM-DD-YYYY]
+**Week Ending:** 30-01-2001
 
 ---
 
@@ -55,6 +55,9 @@
 ---
 
 ### Screenshots 
+![install-running-offckb](https://github.com/user-attachments/assets/e9c5b796-93b4-4c3d-b497-a04ade94f52d)
+<img width="977" height="502" alt="image" src="https://github.com/user-attachments/assets/c01cb6f9-f79e-4ec6-99ce-922271177485" />
+
 
 
 ---
