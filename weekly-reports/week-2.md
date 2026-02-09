@@ -1,7 +1,7 @@
 ## Builder Track Weekly Report — Week 2
 
 **Name:** Nnadozie Clara  
-**Week Ending:** [MM-DD-YYYY]
+**Week Ending:** 06-02-2026
 
 ---
 
@@ -59,7 +59,8 @@
 
 ### Screenshots / Evidence
 
-
+<img width="1697" height="1318" alt="image" src="https://github.com/user-attachments/assets/8fbb687e-af43-4cef-9c7a-37e60a0591d4" />
+<img width="1646" height="1276" alt="image" src="https://github.com/user-attachments/assets/090eafe7-57e7-4c3b-9b56-79b2565e0840" />
 
 ---
 
