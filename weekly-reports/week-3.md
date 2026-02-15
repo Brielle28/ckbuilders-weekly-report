@@ -53,6 +53,9 @@
 
 https://github.com/user-attachments/assets/b409d5a6-edc2-4ce9-926f-e5b1d8b33f64
 
+click the link to watch the full video - [ckb-academy-transaction](https://github.com/user-attachments/assets/b409d5a6-edc2-4ce9-926f-e5b1d8b33f64)
+
+
 ---
 
 ### Environment
