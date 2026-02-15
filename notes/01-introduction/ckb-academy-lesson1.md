@@ -87,12 +87,15 @@ CKB stores consensus data on-chain, enabling anyone to upload valuable and neces
 
 ## How to Tell That You Own a Cell?
 
+## What is Script 
+a script is a small program (code) that the blockchain runs to decide if something is allowed . in simple terms it ia a rule written in code that ckb checks befoore accepting a transaction.
+
 ### Lock and Type Scripts
 
 If the cell is a **box**, the lock and type scripts are the **two locks on the box**:
 
-- **Lock script:** The default lock (required)
-- **Type script:** An optional lock
+- **Lock script:** The default lock (required) and it determins who can spend the cell that is why it is required. in simple words it controls ownership, spending , provides security and it is always required.
+- **Type script:** An optional lock. this script defines rules for the cell. example what kind of cell is this and how should it behave.
 
 ### Script Structure
 
