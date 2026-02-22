@@ -148,7 +148,6 @@ ckbuilders-weekly-report/
 │   └── 04-advanced/          # Optional: SSRI, RGB++, xUDT, iCKB
 ├── weekly-reports/           # Weekly status updates (programme requirement)
 ├── exercises/                # Tutorial code and practice projects
-├── screenshots/              # Proof of completion for exercises
 └── capstone-project/         # Final capstone application
 ```
 
