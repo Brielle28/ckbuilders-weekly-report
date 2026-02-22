@@ -1,0 +1,7 @@
+# Dependencies and build outputs
+node_modules/
+**/node_modules/
+.parcel-cache/
+**/.parcel-cache/
+dist/
+**/dist/
