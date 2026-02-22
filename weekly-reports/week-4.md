@@ -54,7 +54,28 @@
 ---
 
 ### Screenshots / Evidence
+**View and Transfer CKB (hands-on)**
+ 
+ https://github.com/user-attachments/assets/4b6b2040-d769-49ab-8760-b6bb07c8d2d0
+ 
+ https://github.com/user-attachments/assets/1d04a605-f2e4-4ee1-8d52-4a95af5061ac
 
+ https://github.com/user-attachments/assets/b3c5f8d1-16b2-4cfc-801f-fa0b9e55723f
+
+ https://github.com/user-attachments/assets/a4264fdb-1deb-4113-9ade-f7a448e645e5
+ 
+ https://github.com/user-attachments/assets/621cdc79-39a3-4ee6-93c6-7002f001937e
+
+ **Store Data on Cell (hands-on)**
+
+ https://github.com/user-attachments/assets/6ad944c6-5818-466b-a5ae-bd304c081519
+
+ https://github.com/user-attachments/assets/9f736ee0-26ef-446f-bb3b-867c88b74a06
+
+ https://github.com/user-attachments/assets/41f29011-ff2a-4842-baa3-201e9d46e417
+
+ 
+ 
 ---
 
 ### Environment
