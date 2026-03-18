@@ -7,36 +7,35 @@
 
 ### Courses Completed
 
-- **CKB SDK & Dev Tools — CCC Playground** ([Nervos CKB Docs – Playground](https://docs.nervos.org/docs/sdk-and-devtool/playground)):
-  - What CCC Playground is and how it works as a browser-based CKB development environment
-  - Core features: interactive code editor, transaction visualization, four-tab interface (Transaction, Scripts, Console, About)
-  - Testnet vs Mainnet — how to switch networks and why it matters
-  - Writing and loading code: direct editing, loading from GitHub via `?src=`, sharing via Nostr protocol
-  - Debugging tools: `console.log()`, step execution, `playground.render()`, stack traces
+- **CKB SDK & Dev Tools — JavaScript/TypeScript (CCC)** ([Nervos CKB Docs – Playground](https://docs.nervos.org/docs/sdk-and-devtool/playground)):
+  - Introduction to CCC as the recommended JS/TS SDK for CKB development
+  - Overview of what CCC can do and the problems it solves
+  - High-level look at available packages and installation options
 
-- **CCC Docs — Introduction** ([CCC Docs](https://docs.ckbccc.com)):
-  - What CCC (CKBers' Codebase) is and its role as a one-stop JS/TS SDK for CKB development
-  - The six core use cases: Learn CKB, Analyze Data, Compose Transactions, Sign Easily, Connect Wallets, Interoperability
-  - Getting started options: Playground, `create-ccc-app` CLI tool, and manual installation
-  - Available packages: `@ckb-ccc/shell`, `@ckb-ccc/ccc`, `@ckb-ccc/connector`, `@ckb-ccc/connector-react`
-  - The import system and how the `ccc` object works with tree-shaking
-  - Basic transaction composition flow using CCC helpers
+- **CCC Official Docs — Overview** ([CCC Docs](https://docs.ckbccc.com)):
+  - What CCC is and why it exists
+  - The five core use cases CCC is designed to support
+  - Getting started paths: Playground, CLI tool, and manual install
 
 ---
 
 ### Key Learnings
 
-- **CCC Playground**
-  - **What it is:** A browser-based IDE specifically for CKB — no local node or setup required to test transactions and scripts
-  - **Transaction Visualization:** Instead of reading raw JSON, the playground renders a live visual diagram of inputs, outputs, cell dependencies, and witness data as you build
-  - **Testnet vs Mainnet:** Switching is done from the bottom-left corner; always verify which network you are on before sending anything — mistakes on Mainnet involve real assets
-  - **Code Sharing via Nostr:** Clicking Share packages your code into a decentralized Nostr event and generates a shareable link — no login or account needed
-  - **Debugging:** Step execution lets you pause and inspect the transaction state at each point; `playground.render()` acts as a visual breakpoint
+- **What CCC Is**
+  - Concept: CCC (CKBers' Codebase) is a one-stop JavaScript/TypeScript SDK built specifically for CKB development. It is the officially recommended tool, positioned as a better alternative to older tools like Lumos and ckb-js-sdk.
+  - Beyond being a dev SDK, CCC also functions as a wallet connector — it handles interoperability between wallets from different blockchain ecosystems and connects them into CKB.
 
-- **CCC Library**
-  - **What CCC is:** A JavaScript/TypeScript library (not a framework) that abstracts away the complexity of building on CKB — handling inputs, fees, signing, and wallet connections
-  - **`create-ccc-app` clarification:** This is a CLI scaffolding tool, not a framework itself — it just generates a project structure so you can start building faster
-  - **Transaction helpers:** CCC handles a lot automatically — `completeInputsByCapacity(signer)` finds your inputs, `completeFeeBy(signer)` calculates the fee, and `signer.sendTransaction(tx)` sends it
+- **What CCC Can Do — The Five Use Cases:** 
+  - Learn CKB: CCC comes with numerous code examples and web demos to help new developers understand how CKB works in practice.
+  - Analyze Data: CCC can interact with CKB nodes directly and process blockchain data programmatically, making it useful for data and indexing work.
+  - Compose Transactions: CCC provides highly intuitive and customizable transaction composition helpers — this is its most central capability and will be the main focus of Week 8.
+  - Sign Easily: CCC provides a unified signing interface with pre-built signing methods that work across multiple chains seamlessly.
+  - Connect Wallets: CCC includes a connector component that can be integrated in minutes, or used as a base to build a fully custom wallet connection UI.
+
+- **Getting Started Options**
+  - CCC can be used immediately in the browser via the Playground at live.ckbccc.com — no installation needed.
+  - For building real applications, the create-ccc-app CLI scaffolds a full project in one command. Manual installation is also available with targeted packages like @ckb-ccc/shell for Node.js or @ckb-ccc/connector-react for React apps or Custom UI (@ckb-ccc/ccc), Web Component (@ckb-ccc/connector) or depending on the developer need 
+  - All CCC functionality is accessed through a single unified ccc object regardless of which package is installed, keeping the API surface consistent.
   - **Tree-shaking:** All CCC features are accessed via the `ccc` object, and only what you actually use gets bundled into your production build
   - **Advanced entry point:** `/advanced` exports `cccA` for low-level customization, but these APIs are unstable and subject to change
 
