@@ -81,8 +81,7 @@
 
 https://github.com/user-attachments/assets/aac6daae-af1b-4bfa-b9cf-a4b05c1b809d
 
-https://github.com/user-attachments/assets/f3613adc-e54f-40bc-9005-38d587aa4213
-
+https://github.com/user-attachments/assets/c78d813c-daf1-45aa-b23c-7ac696f57bfb
 | What                                      | Evidence                                                                            |
 | ----------------------------------------- | ----------------------------------------------------------------------------------- |
 | OffCKB deploy success                     | terminal output + generated `deployment/scripts.json`                               |
